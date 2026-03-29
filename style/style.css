@@ -6,6 +6,10 @@
 }
 
 /* common styles */
+section{
+    max-width: 1280px;
+    margin: 0px auto 80px;
+}
 .color-1{
     color: #0E0E0E;
 }
@@ -17,6 +21,29 @@
     color: white;
     border-radius: 8px;
 }
+.section-title{
+    font-size: 40px;
+}
+.cards{
+    display: flex;
+}
+.card-img{
+    margin-bottom: 24px;
+    width: 60px;
+    background: transparent;
+}
+.card-title{
+    font-size: 20px;
+    opacity: 80%;
+    margin-bottom: 12px;
+    background: transparent;
+}
+.description{
+    font-size: 16px;;
+    opacity: 70%;
+    background: transparent;
+}
+
 
 
 
@@ -46,11 +73,11 @@ main{
 }
 /* banner styles */
 .banner{
-    max-width: 1280px;;
+    /* max-width: 1280px;; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px auto;
+    /* margin: 0px auto; */
     background-color: #C6E4D6;
     border-radius: 25px;
     padding: 70px;
@@ -76,3 +103,78 @@ main{
 .banner .banner-img{
     background: transparent;
 }
+
+
+/* pillar styles */
+.pillar .pillar-title{
+    margin-bottom: 32px;
+}
+.pillar .card{
+    padding: 24px;
+    border-radius: 16px;
+    margin-right:24px;
+    background: white;
+}
+
+/* vision future styles */
+.vision-future .section-title{
+    margin-bottom: 24px;
+}
+.vision-future .title-description{
+    margin-bottom: 32px;
+}
+/* .vision-future .cards{
+    display: flex
+} */
+.vision-future .card{
+    border-radius: 16px;
+    padding:32px;
+    max-width: 400px;
+    background-color: #5490F533;
+    margin-right: 24px;
+}
+.vision-future .card .description{
+    margin-bottom: 24px;
+}
+.vision-future .digital-card button{
+    background-color: #5490F5;
+}
+.vision-future .green-card{
+    background-color: #C6E4D6;
+}
+.vision-future .green-card button{
+    background-color: #09A15C;
+}
+.vision-future .modern-card{
+    background-color: #F7EBCF;
+}
+.vision-future .modern-card button{
+    background-color: #FFC239;
+}
+
+
+/* quote section is here */
+.quote{
+    background: url("../assets/quote-bg.png") top left 60px no-repeat, white;
+    padding: 48px 24px;
+    border-radius: 16px;
+}
+.quote .quote-description{
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 12px;
+    background: transparent;
+}
+.quote .quote-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 4px;
+    opacity: 80%;
+    background: transparent;
+}
+.quote .quote-title-description{
+    font-size: 16px;
+    opacity: 60%;
+    background: transparent;
+}
+
