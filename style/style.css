@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1F1F3;
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* common styles */
+
+
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
