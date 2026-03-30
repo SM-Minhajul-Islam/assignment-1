@@ -6,6 +6,7 @@
 }
 
 /* common styles */
+
 section{
     max-width: 1280px;
     margin: 0px auto 80px;
@@ -73,14 +74,14 @@ main{
 }
 /* banner styles */
 .banner{
-    /* max-width: 1280px;; */
+    /* max-width: 1280px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* margin: 0px auto; */
     background-color: #C6E4D6;
     border-radius: 25px;
-    padding: 70px;
+    padding: 80px 0px;
 }
 .banner .banner-info{
     max-width: 600px;
@@ -155,7 +156,7 @@ main{
 
 /* quote section is here */
 .quote{
-    background: url("../assets/quote-bg.png") top left 60px no-repeat, white;
+    background: url("../assets/quote-bg.png") top left 15px no-repeat, white;
     padding: 48px 24px;
     border-radius: 16px;
 }
@@ -178,3 +179,68 @@ main{
     background: transparent;
 }
 
+/* opinion styles */
+.opinion{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+.opinion .section-title{
+    align-self: flex-start;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.opinion .opinion-card{
+    /* margin:32px; */
+    background-color: white;
+    padding: 48px 24px;
+    border-radius: 16px;
+    width: 100%;
+}
+.opinion .opinion-card .opinion-table{
+    background-color: transparent;
+    border: 1px solid rgba(14,14,14,0.15);
+    border-collapse: collapse;
+    padding: 24px;
+    width: 100%;
+}
+
+.opinion .opinion-card .opinion-table td{
+    padding:24px;
+}
+.opinion .opinion-card .opinion-table .table-header{
+    background-color: #C6E4D6;
+}
+
+.opinion .opinion-card .opinion-table .table-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.opinion .opinion-card .opinion-table .table-head h6{
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600px;
+    color:#0E0E0E;
+}
+.opinion .opinion-card .opinion-table tr .td-1,.opinion .opinion-card .opinion-table tr .td-2{
+    background: white;
+}
+.opinion .opinion-card .opinion-table tr .td-1{
+    font-size: 16px;
+    font-weight: 600px;
+}
+.opinion .opinion-card .opinion-table tr .td-2{
+    text-align: center;
+}
+.opinion .opinion-card .opinion-table tr .table-btn{
+    font-size: 16px;
+    background-color: #C6E4D6;
+    padding:10px 14px;
+    border-radius: 4px;
+    width: 150px;
+}
+.opinion .opinion-card .opinion-table .fa-angle-down{
+    background: transparent;
+}
