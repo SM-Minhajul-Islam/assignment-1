@@ -8,7 +8,7 @@
 /* common styles */
 
 section{
-    max-width: 1280px;
+    max-width: 90%;
     margin: 0px auto 80px;
 }
 .color-1{
@@ -21,6 +21,7 @@ section{
     padding: 17px 34px;
     color: white;
     border-radius: 8px;
+    cursor: pointer;
 }
 .section-title{
     font-size: 40px;
@@ -66,6 +67,7 @@ nav .nav-button{
     border: 1px solid #006A50;
     border-radius: 5px;
     color: #006A50;
+    cursor: pointer;
 }
 
 
@@ -156,8 +158,10 @@ main{
 
 /* quote section is here */
 .quote{
+    max-width: 90%;
     background: url("../assets/quote-bg.png") top left 15px no-repeat, white;
     padding: 48px 24px;
+    /* padding:80px 0px; */
     border-radius: 16px;
 }
 .quote .quote-description{
@@ -240,7 +244,103 @@ main{
     padding:10px 14px;
     border-radius: 4px;
     width: 150px;
+    cursor: pointer;
 }
 .opinion .opinion-card .opinion-table .fa-angle-down{
     background: transparent;
+}
+
+
+/* recent news styles */
+.recent-news .section-title{
+    margin-bottom: 24px;
+}
+.recent-news .recent-cards .recent-card{
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    margin-top: 24px;
+    display: flex;
+}
+.recent-news .recent-cards .recent-card .recent-card-img{
+    background: transparent;
+    border-radius: 24px;
+    margin-right: 32px;
+    width:400px;
+}
+.recent-news .recent-card .recent-card-info{
+    background: transparent;
+}
+.recent-news .recent-card .recent-card-info .recent-card-title{
+    font-size: 32px;
+    font-weight: 700px;
+    color:rgba(14,14,14,0.8);
+    margin-bottom: 12px;
+    background-color: transparent;
+}
+.recent-news .recent-card .recent-card-info .recent-card-icon{
+    background: transparent;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.recent-news .recent-card .recent-card-info .recent-card-date,.recent-news .recent-card .recent-card-info .recent-card-date span {
+    font-size: 16px;
+    color:rgba(14,14,14,0.7);
+    background: transparent;
+    margin-bottom: 12px;
+}
+.recent-news .recent-card .recent-card-info .recent-card-description{
+    margin-bottom: 32px;
+}
+.recent-news .recent-cards .r-card-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.recent-news .recent-cards .r-card-2 .recent-card-img{
+    margin-right: 0px;
+    margin-left: 32px;
+}
+
+/* donate today styles */
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donate .section-title{
+    margin-bottom: 24px;
+}
+.donate .description{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.donate .donate-cards{
+    display: flex;
+    margin-bottom: 32px;
+}
+.donate .donate-cards .donate-amount{
+    font-size: 40px;
+    font-weight: 700px;
+    color:rgba(14,14,14,0.8);
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    margin-right: 24px;
+}
+.donate .donate-cards .donate-amount:hover{
+    background-color: gray;
+    color: white;
+}
+.donate .donate-cards .amount-selected{
+    background-color: #C6E4D6;
+}
+.donate .donate-amount-select{
+    font-size: 20px;
+    color:rgba(14,14,14,0.30);
+    background-color: white;
+    border: none;
+    padding:20px 40px;
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 32px;
 }
