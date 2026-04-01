@@ -3,6 +3,7 @@
     padding: 0px;
     background-color: #F1F1F3;
     font-family: "Fira Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 /* common styles */
@@ -343,4 +344,78 @@ main{
     width: 1000px;
     text-align: center;
     margin-bottom: 32px;
+}
+
+
+/* subscribe styles */
+.subscribe{
+    padding:80px 100px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe .subscribe-info{
+    text-align: center;
+    width: 750px;
+    background: transparent;
+}
+
+.subscribe .subscribe-info .section-title{
+    margin-bottom: 16px;
+    font-weight: 700px;
+    background: transparent;
+
+}
+.subscribe .subscribe-info .description{
+    margin-bottom: 24px;
+}
+.subscribe .subscribe-info .input-group{
+    display: flex;
+    background: transparent;
+    margin-bottom: 24px;
+}
+.subscribe .subscribe-info .input-group .subscribe-email{
+    font-size: 16px;
+    width: 500px;
+    padding: 18px 40px;
+    border:none;
+    border-radius: 16px 0px 0px 16px;
+    margin-right: 0px;
+}
+.subscribe .subscribe-info .input-group .subscribe-btn{
+    border-radius: 0px 16px 16px 0px;
+    margin-left: 0px;
+}
+.subscribe .subscribe-info .alert{
+    background: transparent;
+}
+
+
+/* footer styles */
+footer{
+    text-align: center;
+    padding: 50px 160px;
+    background-color: #fff;
+}
+
+footer .footer-title{
+    font-size: 32px;
+    font-weight: 700px;
+    background-color: transparent;
+    margin-bottom: 32px;
+}
+footer .footer-hr{
+    margin-bottom: 32px;
+}
+footer .social-icons{
+    background-color: transparent;
+}
+footer .social-icons a{
+    margin-right: 23px;
+    background-color: transparent;
+}
+footer .social-icons a .social-icon{
+    background-color: transparent;
 }
